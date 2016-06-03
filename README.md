@@ -9,7 +9,7 @@ DDS Converterプラグインは、Shade 3DでDDS形式の画像をインポー�
 ## ソースのビルド
 
 WindowsはVisual Studio 2013を使用。  
-Shade 3D Plugin SDK ver.15.1が必要です (https://shade3d.jp/community/sdn/sdk.html)。  
+Shade 3D Plugin SDK ver.15.1が必要です ( https://shade3d.jp/community/sdn/sdk.html )。  
 
 ## ビルド方法
 
