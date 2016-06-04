@@ -35,8 +35,8 @@ STRINGS                 SXUL                    "..\\source\\resources\\ja.lproj
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 0,0,0,1
- PRODUCTVERSION 0,0,0,1
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -53,11 +53,11 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "ft-lab."
             VALUE "FileDescription", "DDS Converter"
-            VALUE "FileVersion", "0, 0, 0, 1"
+            VALUE "FileVersion", "1, 0, 0, 0"
             VALUE "InternalName", "DDS Converter"
             VALUE "LegalCopyright", "Copyright (C) 2016 ft-lab."
             VALUE "ProductName", "DDS Converter"
-            VALUE "ProductVersion", "0, 0, 0, 1"
+            VALUE "ProductVersion", "1, 0, 0, 0"
         END
     END
     BLOCK "VarFileInfo"

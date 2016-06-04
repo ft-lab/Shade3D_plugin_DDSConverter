@@ -149,11 +149,11 @@ sxsdk::image_interface* CDDSLoader::m_loadDDSBits (sxsdk::stream_interface* stre
 		std::vector<sx::rgba8_class> colLines;
 		colLines.resize(m_width);
 		byteLines.resize(m_width);
-
+#if 0
 		char szStr[256];
 		sprintf(szStr, "DDS pixel format = %d", m_formatType);
 		shade.message(szStr);
-
+#endif
 		// m_depthが１より大きい場合は、横にレイヤの画像を並べる.
 		for (int loop = 0, posX = 0; loop < m_depth; loop++, posX += m_width) {
 			if (m_formatType == DDS_FORMAT_A8R8G8B8) {
@@ -248,11 +248,11 @@ sxsdk::image_interface* CDDSLoader::m_loadDDSBitsFloat (sxsdk::stream_interface*
 
 		std::vector<sxsdk::rgba_class> colLines;
 		colLines.resize(m_width);
-
+#if 0
 		char szStr[256];
 		sprintf(szStr, "DDS pixel format = %d", m_formatType);
 		shade.message(szStr);
-
+#endif
 		// m_depthが１より大きい場合は、横にレイヤの画像を並べる.
 		for (int loop = 0, posX = 0; loop < m_depth; loop++, posX += m_width) {
 			if (m_formatType == DDS_FORMAT_A16B16G16R16) {
